@@ -10,7 +10,7 @@
 ## Tutorial directory, click to jump to the corresponding video (it will be added later according to the learning content)
 
 * Image classification
-  * LeNet (completed) 
+  * LeNet  
 
 
 * Object Detection
