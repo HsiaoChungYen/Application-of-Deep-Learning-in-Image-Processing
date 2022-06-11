@@ -1,13 +1,15 @@
 # Application-of-Deep-Learning-in-Image-Processing
 
 ## Preface
-1) Introduce the structure and innovation of the network
-2) Use Pytorch to build and train the network
+* Introduce the structure and innovation of the network
+* Use Pytorch to build and train the network
 
 ## Tutorial directory, click to jump to the corresponding video (it will be added later according to the learning content)
 
 * Image classification
   * LeNet  
+  * AlexNet
+  * VggNet
 
 
 * Object Detection
