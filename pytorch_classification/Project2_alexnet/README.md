@@ -23,6 +23,7 @@ where W is the input image size, F is the size of the convolution or pooling ker
 Next, we analyze each layer of the network in detail:
 
 **Convolution layer 1** (since 2 GPUs are used, the number of convolution kernels needs to be multiplied by 2):
+  
 **Conv1: kernels:48*2=96；kernel_size:11；padding:[1, 2] ；stride:4**
 
 |Name |Quantity|
