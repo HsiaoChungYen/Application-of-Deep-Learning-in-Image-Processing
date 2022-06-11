@@ -13,7 +13,8 @@ There are upper and lower parts in the figure, because the author uses two GPUs 
 (3) Use LRN local response normalization.
 
 (4) In the first two layers of the fully connected layer, the Dropout method is used to randomly inactivate neurons in a certain proportion to reduce overfitting.
-
+  
+  
 
 
 |Name |Quantity|
