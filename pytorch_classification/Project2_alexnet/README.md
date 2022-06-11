@@ -4,3 +4,7 @@ AlexNet is the champion network of the 2012 ILSVRC 2012 (ImageNet Large Scale Vi
 
 ![image](https://github.com/HsiaoChungYen/Application-of-Deep-Learning-in-Image-Processing/blob/main/pytorch_classification/Project2_alexnet/AlexNet's_network_structure_diagram.png)
 
+|Name |Quantity|
+|-----|--------|
+|Apple|3       |
+|Egg  |12      |
