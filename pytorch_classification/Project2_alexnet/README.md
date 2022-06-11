@@ -4,6 +4,18 @@ AlexNet is the champion network of the 2012 ILSVRC 2012 (ImageNet Large Scale Vi
 
 ![image](https://github.com/HsiaoChungYen/Application-of-Deep-Learning-in-Image-Processing/blob/main/pytorch_classification/Project2_alexnet/AlexNet's_network_structure_diagram.png)
 
+There are upper and lower parts in the figure, because the author uses two GPUs for parallel training, so the structure of the upper and lower parts is exactly the same, we can see the following parts. Here are the highlights of the network:
+
+(1) The first use of GPU for network acceleration training.
+
+(2) Use the ReLU activation function to replace the traditional Sigmoid activation function and Tanh activation function.
+
+(3) Use LRN local response normalization.
+
+(4) In the first two layers of the fully connected layer, the Dropout method is used to randomly inactivate neurons in a certain proportion to reduce overfitting.
+
+
+
 |Name |Quantity|
 |-----|--------|
 |Apple|3       |
