@@ -23,7 +23,22 @@ where W is the input image size, F is the size of the convolution or pooling ker
 Next, we analyze each layer of the network in detail:
 
 **Convolution layer 1** (since 2 GPUs are used, the number of convolution kernels needs to be multiplied by 2):  
-**Conv1: kernels:48*2=96；kernel_size:11；padding:[1, 2] ；stride:4**
+**Conv1: kernels: 48*2=96；kernel_size: 11；padding: [1, 2] ；stride: 4**
+
+Among them, kernels indicates the number of convolution kernels, kernel_size indicates the size of the convolution, padding indicates that the parameters of the feature matrix are zero up and down, and stride indicates the stride.
+
+Input image shape: [224, 224, 3], output feature matrix shape: [55, 55, 96]
+
+Shape calculation: N = (W - F + 2P ) / S + 1 = [ 224 - 11 + (1 + 2)] / 4 + 1 = 55
+  
+**Max Pooling Downsampling Layer 1**  
+**Maxpool1: kernel_size: 3; pading: 0; stride: 2**  
+Among them, kernel_size is the size of the pooling kernel, padding represents the parameter of zero padding up, down, left and right of the feature matrix, and stride represents the stride
+
+The shape of the input feature matrix: [55, 55, 96], the shape of the output feature matrix: [27, 27, 96]
+
+Shape calculation: N = (W − F + 2P ) / S + 1 = (55 - 3) / 2 + 1 = 27
+
 
 |Name |Quantity|
 |-----|--------|
