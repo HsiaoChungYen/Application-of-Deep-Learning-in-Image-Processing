@@ -14,6 +14,14 @@ There are upper and lower parts in the figure, because the author uses two GPUs 
 
 (4) In the first two layers of the fully connected layer, the Dropout method is used to randomly inactivate neurons in a certain proportion to reduce overfitting.
   
+Then the formula for calculating the size of the matrix after convolution or pooling is given:
+
+   N = (W - F + 2P ) / S + 1
+
+where W is the input image size, F is the size of the convolution or pooling kernel, P is the number of padding pixels, and S is the stride
+
+Next, we analyze each layer of the network in detail:
+
   
 
 
