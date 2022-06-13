@@ -4,7 +4,7 @@
 * Introduce the structure and innovation of the network
 * Use Pytorch to build and train the network
 
-## Tutorial directory (it will be added later according to the learning content)
+## Directory (it will be added later according to the learning content)
 
 * Image classification
   * LeNet  
